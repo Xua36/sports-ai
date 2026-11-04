@@ -1,0 +1,10 @@
+import streamlit as st
+
+st.set_page_config(
+    page_title="陕西全民健身赛事智能服务原型",
+    layout="wide"
+)
+
+st.title("陕西全民健身赛事智能服务原型")
+st.caption("基于公开数据与仿真数据的可演示原型 · 结项验收版本")
+st.write("如果你能看到这句话，说明环境和页面已经跑通。")

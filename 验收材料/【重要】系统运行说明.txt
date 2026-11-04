@@ -1,0 +1,18 @@
+【重要】系统运行与查看说明
+
+老师您好！本项目为基于 Streamlit 开发的 Web 端原型系统。由于是源代码工程，本地查看需按以下简单步骤操作（或直接观看已录制的 演示视频.mp4）：
+
+一、 电脑环境准备
+
+请确保您的电脑已安装 Python（推荐 3.10 或以上版本）。
+
+解压 项目源代码包.zip 到一个全英文路径的文件夹中。
+
+二、 安装依赖并运行（3步即可）
+打开命令行终端（Windows 搜索 cmd 或 PowerShell），进入解压后的文件夹，依次执行：
+
+安装依赖环境：pip install streamlit pandas scikit-learn openpyxl
+
+启动系统：streamlit run app.py
+
+稍等片刻，系统将自动在浏览器中打开网页（通常地址为 http://localhost:8501）。
