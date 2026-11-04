@@ -21,11 +21,11 @@ try:
     tab1, tab2, tab3 = st.tabs(["👥 用户画像数据", "🏃 赛事名录数据", "🔗 匹配交互数据"])
     
     with tab1:
-        st.dataframe(df_users, use_container_width=True)
+        st.table(df_users.head(20))  
     with tab2:
-        st.dataframe(df_events, use_container_width=True)
+        st.table(df_events)
     with tab3:
-        st.dataframe(df_interactions, use_container_width=True)
+        st.table(df_interactions)
         
 except Exception as e:
     st.error(f"❌ 数据读取发生异常: {e}")
